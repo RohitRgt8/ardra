@@ -3,6 +3,7 @@
   "name": "portfolio-rgt8",
   
   "version": "0.1.0",
+"homepage": "http://gitname.github.io/PersonalPortfolio",
   
   "private": true,
 
@@ -54,6 +55,9 @@
   
     
   "start": "react-scripts start",
+
+   "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   
     
   "build": "react-scripts build",
