@@ -23,24 +23,24 @@ function Navbar() {
           id="navbarcollapse"
         >
           <div className="navbar-nav mx-3 my-auto">
-            <a
-              href="#about"
+            <Link
+              to="#about"
               className="nav-item nav-link text-dark font-weight-bold"
             >
               About
-            </a>
+            </Link>
             <Link
               to="#career"
               className="nav-item nav-link text-dark font-weight-bold"
             >
               Career
             </Link>
-            <a
-              href="#works"
+            <Link
+              to="#works"
               className="nav-item nav-link text-dark font-weight-bold"
             >
               Works
-            </a>
+            </Link>
           </div>
         </div>
       </div>
