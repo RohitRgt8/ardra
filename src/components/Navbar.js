@@ -29,12 +29,12 @@ function Navbar() {
             >
               About
             </a>
-            <a
-              href="#career"
+            <Link
+              to="#career"
               className="nav-item nav-link text-dark font-weight-bold"
             >
               Career
-            </a>
+            </Link>
             <a
               href="#works"
               className="nav-item nav-link text-dark font-weight-bold"
