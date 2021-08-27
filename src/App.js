@@ -10,7 +10,6 @@ import RecommendationSection from "./components/RecommendationSection";
 import Contact from "./components/Contact";
 import Writearec from "./components/Writearec";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import HomePage from "./components/HomePage";
 import ProjectPage from "./components/ProjectPage";
 import NotFound from "./components/NotFound";
 
