@@ -24,19 +24,19 @@ function Navbar() {
         >
           <div className="navbar-nav mx-3 my-auto">
             <a
-              href="/"
+              href="#about"
               className="nav-item nav-link text-dark font-weight-bold"
             >
               About
             </a>
             <a
-              href="/"
+              href="#career"
               className="nav-item nav-link text-dark font-weight-bold"
             >
               Career
             </a>
             <a
-              href="/"
+              href="#works"
               className="nav-item nav-link text-dark font-weight-bold"
             >
               Works

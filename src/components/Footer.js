@@ -13,7 +13,7 @@ function Footer() {
             <h4 className="font-weight-normal text-light">
               Want to reach out ?
             </h4>
-            <Link to="/contact">
+            <Link to="/writerec">
               <button className="btn btn-outline-light btn-lg">
                 Let's Talk
               </button>
@@ -26,10 +26,10 @@ function Footer() {
             <Link to="/" className="text-light d-block">
               Home
             </Link>
-            <a href="/" className="text-light d-block">
+            <a href="#about" className="text-light d-block">
               About
             </a>
-            <a href="/" className="text-light d-block">
+            <a href="#works" className="text-light d-block">
               Works
             </a>
             <Link to="/contact" className="text-light d-block">
