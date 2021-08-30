@@ -12,6 +12,7 @@ import Writearec from "./components/Writearec";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ProjectPage from "./components/ProjectPage";
 import NotFound from "./components/NotFound";
+import AddProject from "./components/AddProject";
 
 function App() {
   return (
@@ -34,7 +35,8 @@ function App() {
         <Route exact path="/writerec" component={Writearec}>
           <Writearec />
         </Route>
-        <Route exact path="/project/:id" component={ProjectPage}></Route>
+        <Route exact path="/project/add" component={AddProject} />
+        <Route exact path="/project/:id" component={ProjectPage} />
         <Route component={NotFound}>
           <NotFound />
         </Route>

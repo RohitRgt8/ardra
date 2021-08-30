@@ -9,7 +9,7 @@ function ProjectCard(props) {
       <div className="card-body">
         <h4 className="card-title">{project.title}</h4>
         <p className="card-text">{project.content}</p>
-        <Link to={`/project${project.id}`} className="stretched-link"></Link>
+        <Link to={`/project/${project.id}`} className="stretched-link"></Link>
       </div>
     </div>
   );
