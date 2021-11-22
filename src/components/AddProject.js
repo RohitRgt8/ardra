@@ -48,9 +48,9 @@ class AddProject extends Component {
         <h1 className="text-center my-5 font-weight-light">
           Add <span className="text-info">Work</span>
         </h1>
-        <div className="row px-3">
-          <div className="col-12 col-lg-6">
-            <form>
+        <div className="row px-3 px-lg-5">
+          <div className="col-12 col-lg-6 px-lg-5">
+            <form onSubmit={this.onSubmit}>
               <div className="form-group">
                 <label htmlFor="imageUrl">Featured Image URL *</label>
                 <input
@@ -102,7 +102,7 @@ class AddProject extends Component {
               <h5 className={submitmsgtextcolor}>{submitmsg}</h5>
             </div>
           </div>
-          <div className="col-12 col-lg-6">
+          <div className="col-12 col-lg-6 markdown">
             <div className="justify-content-center">
               <img src={imageUrl} alt={title} className="img-fluid" />
             </div>

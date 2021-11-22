@@ -13,36 +13,41 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ProjectPage from "./components/ProjectPage";
 import NotFound from "./components/NotFound";
 import AddProject from "./components/AddProject";
+import { Provider } from "./context";
+import AllProjects from "./components/AllProjects";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <Navbar />
-      <Switch>
-        <Route exact path="/">
-          <Title
-            name="Rohit George"
-            pos="Membership Development Vice Chair at IEEE FISAT SB"
-          />
-          <RecommendationSection />
-          <Aboutme />
-          <SkillSection />
-          <ProjectSection />
-        </Route>
-        <Route exact path="/contact" component={Contact}>
-          <Contact />
-        </Route>
-        <Route exact path="/writerec" component={Writearec}>
-          <Writearec />
-        </Route>
-        <Route exact path="/project/add" component={AddProject} />
-        <Route exact path="/project/:id" component={ProjectPage} />
-        <Route component={NotFound}>
-          <NotFound />
-        </Route>
-      </Switch>
-      <Footer />
-    </BrowserRouter>
+    <Provider>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Navbar />
+        <Switch>
+          <Route exact path="/">
+            <Title
+              name="Rohit George"
+              pos="Membership Development Vice Chair at IEEE FISAT SB"
+            />
+            <RecommendationSection />
+            <Aboutme />
+            <SkillSection />
+            <ProjectSection />
+          </Route>
+          <Route exact path="/contact" component={Contact}>
+            <Contact />
+          </Route>
+          <Route exact path="/writerec" component={Writearec}>
+            <Writearec />
+          </Route>
+          <Route exact path="/allprojects" component={AllProjects} />
+          <Route exact path="/project/add" component={AddProject} />
+          <Route exact path="/project/:id" component={ProjectPage} />
+          <Route component={NotFound}>
+            <NotFound />
+          </Route>
+        </Switch>
+        <Footer />
+      </BrowserRouter>
+    </Provider>
   );
 }
 
