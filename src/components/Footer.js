@@ -42,9 +42,8 @@ function Footer() {
           </div>
           <div className="col-12 col-md-4 text-light text-justify py-3">
             <p>
-              Hi All. I'm Rohit George, a sophomore at Federal Institute of
-              Science and Technology, undergoing the course B.Tech Computer
-              Science and Engineering. An upcoming CS Engineering Student
+              Hi All. I'm Ardra Saji, a student at Federal Institute of
+              Science and Technology, undergoing the course B.Tech ECE. An upcoming CS Engineering Student
               aspiring to be an experienced Full Stack Developer in the coming
               years.
             </p>

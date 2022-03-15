@@ -1,5 +1,5 @@
 import React from "react";
-import Rohit from "../assets/rohit.JPG";
+import Rohit from "../assets/react.png";
 
 function Title(props) {
     const {name,pos} = props;
@@ -11,9 +11,9 @@ function Title(props) {
             </div>
             <div className="col-12 col-md-6">
             <div className="font-weight-light" style={{ fontSize: "40px" }}>
-                    <p>Hi! This is <span className="text-info">{name}</span></p>
+                    <p>Hi! This is <span className="text-info">Ardra Saji</span></p>
                 </div>
-                <h4 className="font-weight-light">{pos}</h4>
+                <h4 className="font-weight-light">Chair IEEE FISAT SB</h4>
             </div>
         </div>
     </div>

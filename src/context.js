@@ -7,7 +7,7 @@ export class Provider extends Component {
     project: [
       {
         id: 1,
-        title: "M D Vice Chair",
+        title: "Chair",
         content: "IEEE FISAT SB",
         imageUrl:
           "https://storage.googleapis.com/unschool-portfolio-website/free-stock-image-1.jpg",
